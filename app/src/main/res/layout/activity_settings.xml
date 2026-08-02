@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/earth_dark"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_title"
+        android:textColor="@color/earth_white"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnArabic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/language_arabic"
+        android:backgroundTint="@color/earth_accent"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/language_english"
+        android:backgroundTint="@color/earth_accent" />
+
+</LinearLayout>

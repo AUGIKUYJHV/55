@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مساح اليمن الجوي</string>
+
+    <!-- شاشة القفل -->
+    <string name="enter_pin">أدخل كلمة السر</string>
+    <string name="set_new_pin">قم بتعيين كلمة سر جديدة (٤ أرقام على الأقل)</string>
+    <string name="save_pin">حفظ</string>
+    <string name="pin_too_short">كلمة السر يجب أن تكون ٤ أرقام على الأقل</string>
+    <string name="wrong_pin">كلمة السر غير صحيحة</string>
+    <string name="use_fingerprint">استخدام البصمة</string>
+    <string name="use_pin_instead">استخدام كلمة السر</string>
+    <string name="biometric_title">التحقق من الهوية</string>
+    <string name="biometric_subtitle">استخدم بصمتك لفتح التطبيق</string>
+    <string name="biometric_unavailable">البصمة غير متاحة على هذا الجهاز</string>
+
+    <!-- الشاشة الرئيسية -->
+    <string name="tap_map_to_measure">انقر على الخريطة لبدء القياس</string>
+    <string name="measure_result">المسافة: %1$s | الميل: %2$s%% (%3$s°)</string>
+    <string name="total_area">المساحة الإجمالية: %1$s</string>
+    <string name="kml_imported">تم استيراد %1$d عنصر من الملف</string>
+    <string name="load_local_satellite_layer">قم بإضافة طبقة قمر صناعي محلية من مدير الطبقات</string>
+
+    <!-- مدير الطبقات -->
+    <string name="layers_title">مدير الطبقات والصور الجوية</string>
+
+    <!-- الإعدادات -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">English</string>
+</resources>

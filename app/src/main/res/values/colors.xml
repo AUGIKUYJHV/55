@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="earth_dark">#1A2530</color>
+    <color name="earth_dark_transparent">#CC1A2530</color>
+    <color name="earth_accent">#4FC3F7</color>
+    <color name="earth_green">#66BB6A</color>
+    <color name="earth_white">#FFFFFF</color>
+    <color name="earth_gray">#B0BEC5</color>
+    <color name="earth_danger">#EF5350</color>

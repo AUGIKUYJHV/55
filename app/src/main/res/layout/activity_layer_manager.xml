@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/earth_dark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/layers_title"
+            android:textColor="@color/earth_white"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnPickImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اختيار صورة جوية"
+            android:backgroundTint="@color/earth_accent" />
+
+        <TextView
+            android:id="@+id/tvSelectedFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/earth_gray"
+            android:layout_marginTop="4dp" />
+
+        <EditText
+            android:id="@+id/etPhotoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اسم الصورة (مثال: صنعاء القديمة ١٩٩٥)"
+            android:textColorHint="@color/earth_gray"
+            android:textColor="@color/earth_white"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/etCaptureDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="تاريخ الالتقاط (yyyy-MM-dd)"
+            android:textColorHint="@color/earth_gray"
+            android:textColor="@color/earth_white"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إحداثيات تثبيت الصورة على الخريطة (الزاوية العلوية اليسرى والسفلية اليمنى)"
+            android:textColor="@color/earth_gray"
+            android:textSize="12sp"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/etTopLeftLat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="خط عرض الزاوية العلوية اليسرى"
+            android:textColorHint="@color/earth_gray"
+            android:textColor="@color/earth_white"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/etTopLeftLon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="خط طول الزاوية العلوية اليسرى"
+            android:textColorHint="@color/earth_gray"
+            android:textColor="@color/earth_white"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/etBottomRightLat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="خط عرض الزاوية السفلية اليمنى"
+            android:textColorHint="@color/earth_gray"
+            android:textColor="@color/earth_white"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <EditText
+            android:id="@+id/etBottomRightLon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="خط طول الزاوية السفلية اليمنى"
+            android:textColorHint="@color/earth_gray"
+            android:textColor="@color/earth_white"
+            android:inputType="numberDecimal|numberSigned" />
+
+        <Button
+            android:id="@+id/btnSavePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ وإضافة للفهرس"
+            android:backgroundTint="@color/earth_green"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الصور المفهرسة (الأحدث أولًا):"
+            android:textColor="@color/earth_white"
+            android:layout_marginTop="24dp" />
+
+        <ListView
+            android:id="@+id/listPhotos"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+</ScrollView>

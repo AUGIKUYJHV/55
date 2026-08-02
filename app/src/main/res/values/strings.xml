@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yemen Aerial Survey</string>
+
+    <!-- Lock screen -->
+    <string name="enter_pin">Enter PIN</string>
+    <string name="set_new_pin">Set a new PIN (minimum 4 digits)</string>
+    <string name="save_pin">Save</string>
+    <string name="pin_too_short">PIN must be at least 4 digits</string>
+    <string name="wrong_pin">Incorrect PIN</string>
+    <string name="use_fingerprint">Use Fingerprint</string>
+    <string name="use_pin_instead">Use PIN</string>
+    <string name="biometric_title">Authentication Required</string>
+    <string name="biometric_subtitle">Use your fingerprint to unlock the app</string>
+    <string name="biometric_unavailable">Biometric authentication is not available on this device</string>
+
+    <!-- Main screen -->
+    <string name="tap_map_to_measure">Tap the map to start measuring</string>
+    <string name="measure_result">Distance: %1$s | Slope: %2$s%% (%3$s°)</string>
+    <string name="total_area">Total Area: %1$s</string>
+    <string name="kml_imported">%1$d item(s) imported from file</string>
+    <string name="load_local_satellite_layer">Add a local satellite layer from the Layer Manager</string>
+
+    <!-- Layer manager -->
+    <string name="layers_title">Layer &amp; Aerial Photo Manager</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">English</string>
+</resources>
